@@ -19,4 +19,4 @@ def events():
 if __name__ == '__main__':
     # TixScraper.schedule_scrape_job()
     myPort = int(os.environ.get('PORT', 5000))
-    app.run(port=myPort)
+    app.run(host="0.0.0.0", port=myPort)
