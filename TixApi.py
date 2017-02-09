@@ -1,9 +1,13 @@
 import os
 
 from flask import Flask
+from dotenv import load_dotenv, find_dotenv
 import TixScraper
 
 app = Flask(__name__)
+
+# get .env folder
+load_dotenv(find_dotenv())
 
 
 @app.route('/')
