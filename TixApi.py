@@ -1,5 +1,5 @@
 from flask import Flask
-import TixScraper
+# import TixScraper
 
 app = Flask(__name__)
 
