@@ -15,5 +15,5 @@ def events():
 
 
 if __name__ == '__main__':
-    TixScraper.schedule_scrape_job()
+    # TixScraper.schedule_scrape_job()
     app.run()
