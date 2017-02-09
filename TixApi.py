@@ -1,7 +1,7 @@
 import os
 
 from flask import Flask
-# import TixScraper
+import TixScraper
 
 app = Flask(__name__)
 
@@ -17,6 +17,6 @@ def events():
 
 
 if __name__ == '__main__':
-    # TixScraper.schedule_scrape_job()
+    TixScraper.schedule_scrape_job()
     myPort = int(os.environ.get('PORT', 5000))
     app.run(host="0.0.0.0", port=myPort)
