@@ -1,1 +1,1 @@
-web: python TixApi.py ${PORT}
+web: python TixApi.py
